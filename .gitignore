@@ -1,0 +1,27 @@
+
+---
+
+
+
+```gitignore
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environnements / secrets
+.env
+.venv/
+venv/
+
+# Dumps volumineux
+*.sql.gz
+*.dump
+*.bak
+
+# Générés / exports
+*.log
+
+# Modèles / outils
+models/*.bak
